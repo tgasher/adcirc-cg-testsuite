@@ -29,7 +29,7 @@ quadratic_friction_coefficient_at_sea_floor
 0.1 0 0 0.01    	 ! H0, 2*dummy, VELMIN 
 0.000000 45.000000  	 	 ! SLAM0, SFEA0 
 0.002500     	 ! CF 
--0.200000     	 	 ! ELSM 
+0.200000     	 	 ! ELSM 
 0.000000   	 ! CORI 
 10   	 	 ! NTIF 
 MM 
@@ -98,3 +98,4 @@ outputWindDrag = F,
 invertedBarometerOnElevationBoundary = F,
 /
 ! -- End met Control Namelist -- 
+&Smag_Control SMAG_LOWER_LIM=1.0e-8, SMAG_UPPER_LIM=100

@@ -27,7 +27,7 @@ Run_001
 0.1 0 0 0.01    	 ! H0, 2*dummy, VELMIN 
 -76.572766 23.241697  	 	 ! SLAM0, SFEA0 
 0.002500     	 ! CF 
--0.050000     	 	 ! ELSM 
+0.050000     	 	 ! ELSM 
 0.000000   	 ! CORI 
 8   	 	 ! NTIF 
 Q1 
@@ -563,3 +563,4 @@ outputWindDrag = T,
 invertedBarometerOnElevationBoundary = F,
 /
 ! -- End met Control Namelist -- 
+&Smag_Control SMAG_LOWER_LIM=1.0e-8, SMAG_UPPER_LIM=100

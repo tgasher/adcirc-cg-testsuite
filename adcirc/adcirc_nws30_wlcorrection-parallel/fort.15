@@ -27,7 +27,7 @@ NWS=30 and dyn water lvl correction       ! UPTO 24 CHARACTER ALPANUMERIC RUN ID
  5.00                                     ! H0 - MINIMUM CUTOFF DEPTH
  -72.43 40.66                             ! SLAM0,SFEA0 - CENTER OF CPP PROJECTION (NOT USED IF ICS=1, NTIP=0, NCOR=0)
  0.0025  1.0  10.  0.33333                ! FFACTOR, HBREAK, FTHETA, FGAMMA - HYBRID NONLINEAR BOTTOM FRICTION PARAMETERS
- 5.0                                      ! ESL - LATERAL EDDY VISCOSITY COEFFICIENT; IGNORED IF NWP =1
+ 5.0                                      ! ESLM - LATERAL EDDY VISCOSITY COEFFICIENT; IGNORED IF NWP =1
  0.00010                                  ! CORI - CORIOLIS PARAMETER - IGNORED IF NCOR = 1
  0                                        ! NTIF - TOTAL NUMBER OF TIDAL POTENTIAL CONSTITUENTS BEING FORCED
  5                                        ! NBFR - TOTAL NUMBER OF FORCING FREQUENCIES ON OPEN BOUNDARIES

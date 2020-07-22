@@ -26,7 +26,7 @@
  1.0                                 ! H0 - MIMINMUM CUTOFF DEPTH
  0.0 0.0                             ! SLAM0,SFEA0 - CENTER OF CPP PROJECTION (NOT USED IF ICS=1, NTIP=0, NCOR=0)
  0.0025                              ! FFACTOR - HOMOGENEOUS LINEAR OR NONLINEAR BOTTOM FRICTION COEFFICIENT     
- 0.0                                 ! ESL - LATERAL EDDY VISCOSITY COEFFICIENT; IGNORED IF NWP =1
+ 0.0                                 ! ESLM - LATERAL EDDY VISCOSITY COEFFICIENT; IGNORED IF NWP =1
  0.0                                 ! CORI - CORIOLIS PARAMETER - IGNORED IF NCOR = 1
  0                                   ! NTIF - TOTAL NUMBER OF TIDAL POTENTIAL CONSTITUENTS BEING FORCED
  1                                   ! NBFR - TOTAL NUMBER OF FORCING FREQUENCIES ON OPEN BOUNDARIES

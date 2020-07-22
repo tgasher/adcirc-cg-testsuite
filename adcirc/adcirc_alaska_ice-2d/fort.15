@@ -31,7 +31,7 @@ internal_tide_friction
 0.1 0 0 0.01    	 ! H0, 2*dummy, VELMIN 
 194.816492 58.139733  	 	 ! SLAM0, SFEA0 
 0.001500     	 ! CF 
--0.20000     	 	 ! ELSM 
+0.20000     	 	 ! ELSM 
 0.000000   	 ! CORI 
 8   	 	 ! NTIF 
 Q1 
@@ -1100,3 +1100,4 @@ outputWindDrag = F,
 invertedBarometerOnElevationBoundary = F,
 /
 ! -- End met Control Namelist -- 
+&Smag_Control SMAG_LOWER_LIM=1.0e-8, SMAG_UPPER_LIM=100

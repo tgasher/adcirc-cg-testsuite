@@ -177,3 +177,4 @@ William Pringle
 CF
 wpringle@nd.edu
 2014-04-29 00:00:00
+&Smag_Control SMAG_LOWER_LIM=1.0e-8, SMAG_UPPER_LIM=100
